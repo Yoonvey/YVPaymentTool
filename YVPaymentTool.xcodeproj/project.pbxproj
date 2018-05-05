@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183757F5209D362900416255 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183757F4209D362900416255 /* AppDelegate.m */; };
+		183757F8209D362900416255 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183757F7209D362900416255 /* ViewController.m */; };
+		183757FB209D362900416255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183757F9209D362900416255 /* Main.storyboard */; };
+		183757FD209D363600416255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183757FC209D363600416255 /* Assets.xcassets */; };
+		18375800209D363600416255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183757FE209D363600416255 /* LaunchScreen.storyboard */; };
+		18375803209D363600416255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18375802209D363600416255 /* main.m */; };
+		1837580D209D363600416255 /* YVPaymentToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837580C209D363600416255 /* YVPaymentToolTests.m */; };
+		18375818209D363600416255 /* YVPaymentToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18375817209D363600416255 /* YVPaymentToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18375809209D363600416255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183757E8209D362800416255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183757EF209D362900416255;
+			remoteInfo = YVPaymentTool;
+		};
+		18375814209D363600416255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183757E8209D362800416255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183757EF209D362900416255;
+			remoteInfo = YVPaymentTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183757F0209D362900416255 /* YVPaymentTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YVPaymentTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183757F3209D362900416255 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		183757F4209D362900416255 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		183757F6209D362900416255 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		183757F7209D362900416255 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		183757FA209D362900416255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183757FC209D363600416255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183757FF209D363600416255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18375801209D363600416255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18375802209D363600416255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18375808209D363600416255 /* YVPaymentToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YVPaymentToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1837580C209D363600416255 /* YVPaymentToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVPaymentToolTests.m; sourceTree = "<group>"; };
+		1837580E209D363600416255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18375813209D363600416255 /* YVPaymentToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YVPaymentToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18375817209D363600416255 /* YVPaymentToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVPaymentToolUITests.m; sourceTree = "<group>"; };
+		18375819209D363600416255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183757ED209D362900416255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18375805209D363600416255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18375810209D363600416255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183757E7209D362800416255 = {
+			isa = PBXGroup;
+			children = (
+				183757F2209D362900416255 /* YVPaymentTool */,
+				1837580B209D363600416255 /* YVPaymentToolTests */,
+				18375816209D363600416255 /* YVPaymentToolUITests */,
+				183757F1209D362900416255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183757F1209D362900416255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183757F0209D362900416255 /* YVPaymentTool.app */,
+				18375808209D363600416255 /* YVPaymentToolTests.xctest */,
+				18375813209D363600416255 /* YVPaymentToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183757F2209D362900416255 /* YVPaymentTool */ = {
+			isa = PBXGroup;
+			children = (
+				183757F3209D362900416255 /* AppDelegate.h */,
+				183757F4209D362900416255 /* AppDelegate.m */,
+				183757F6209D362900416255 /* ViewController.h */,
+				183757F7209D362900416255 /* ViewController.m */,
+				183757F9209D362900416255 /* Main.storyboard */,
+				183757FC209D363600416255 /* Assets.xcassets */,
+				183757FE209D363600416255 /* LaunchScreen.storyboard */,
+				18375801209D363600416255 /* Info.plist */,
+				18375802209D363600416255 /* main.m */,
+			);
+			path = YVPaymentTool;
+			sourceTree = "<group>";
+		};
+		1837580B209D363600416255 /* YVPaymentToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				1837580C209D363600416255 /* YVPaymentToolTests.m */,
+				1837580E209D363600416255 /* Info.plist */,
+			);
+			path = YVPaymentToolTests;
+			sourceTree = "<group>";
+		};
+		18375816209D363600416255 /* YVPaymentToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18375817209D363600416255 /* YVPaymentToolUITests.m */,
+				18375819209D363600416255 /* Info.plist */,
+			);
+			path = YVPaymentToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183757EF209D362900416255 /* YVPaymentTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1837581C209D363600416255 /* Build configuration list for PBXNativeTarget "YVPaymentTool" */;
+			buildPhases = (
+				183757EC209D362900416255 /* Sources */,
+				183757ED209D362900416255 /* Frameworks */,
+				183757EE209D362900416255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YVPaymentTool;
+			productName = YVPaymentTool;
+			productReference = 183757F0209D362900416255 /* YVPaymentTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18375807209D363600416255 /* YVPaymentToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1837581F209D363600416255 /* Build configuration list for PBXNativeTarget "YVPaymentToolTests" */;
+			buildPhases = (
+				18375804209D363600416255 /* Sources */,
+				18375805209D363600416255 /* Frameworks */,
+				18375806209D363600416255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1837580A209D363600416255 /* PBXTargetDependency */,
+			);
+			name = YVPaymentToolTests;
+			productName = YVPaymentToolTests;
+			productReference = 18375808209D363600416255 /* YVPaymentToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18375812209D363600416255 /* YVPaymentToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18375822209D363600416255 /* Build configuration list for PBXNativeTarget "YVPaymentToolUITests" */;
+			buildPhases = (
+				1837580F209D363600416255 /* Sources */,
+				18375810209D363600416255 /* Frameworks */,
+				18375811209D363600416255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18375815209D363600416255 /* PBXTargetDependency */,
+			);
+			name = YVPaymentToolUITests;
+			productName = YVPaymentToolUITests;
+			productReference = 18375813209D363600416255 /* YVPaymentToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183757E8209D362800416255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = YoonveyTest;
+				TargetAttributes = {
+					183757EF209D362900416255 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					18375807209D363600416255 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 183757EF209D362900416255;
+					};
+					18375812209D363600416255 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 183757EF209D362900416255;
+					};
+				};
+			};
+			buildConfigurationList = 183757EB209D362800416255 /* Build configuration list for PBXProject "YVPaymentTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183757E7209D362800416255;
+			productRefGroup = 183757F1209D362900416255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183757EF209D362900416255 /* YVPaymentTool */,
+				18375807209D363600416255 /* YVPaymentToolTests */,
+				18375812209D363600416255 /* YVPaymentToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183757EE209D362900416255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18375800209D363600416255 /* LaunchScreen.storyboard in Resources */,
+				183757FD209D363600416255 /* Assets.xcassets in Resources */,
+				183757FB209D362900416255 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18375806209D363600416255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18375811209D363600416255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183757EC209D362900416255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183757F8209D362900416255 /* ViewController.m in Sources */,
+				18375803209D363600416255 /* main.m in Sources */,
+				183757F5209D362900416255 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18375804209D363600416255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1837580D209D363600416255 /* YVPaymentToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1837580F209D363600416255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18375818209D363600416255 /* YVPaymentToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1837580A209D363600416255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183757EF209D362900416255 /* YVPaymentTool */;
+			targetProxy = 18375809209D363600416255 /* PBXContainerItemProxy */;
+		};
+		18375815209D363600416255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183757EF209D362900416255 /* YVPaymentTool */;
+			targetProxy = 18375814209D363600416255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183757F9209D362900416255 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183757FA209D362900416255 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183757FE209D363600416255 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183757FF209D363600416255 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1837581A209D363600416255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1837581B209D363600416255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1837581D209D363600416255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CS83JSD9BS;
+				INFOPLIST_FILE = YVPaymentTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yoonvey.YVPaymentTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1837581E209D363600416255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CS83JSD9BS;
+				INFOPLIST_FILE = YVPaymentTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yoonvey.YVPaymentTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18375820209D363600416255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CS83JSD9BS;
+				INFOPLIST_FILE = YVPaymentToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yoonvey.YVPaymentToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YVPaymentTool.app/YVPaymentTool";
+			};
+			name = Debug;
+		};
+		18375821209D363600416255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CS83JSD9BS;
+				INFOPLIST_FILE = YVPaymentToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yoonvey.YVPaymentToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YVPaymentTool.app/YVPaymentTool";
+			};
+			name = Release;
+		};
+		18375823209D363600416255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CS83JSD9BS;
+				INFOPLIST_FILE = YVPaymentToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yoonvey.YVPaymentToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YVPaymentTool;
+			};
+			name = Debug;
+		};
+		18375824209D363600416255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CS83JSD9BS;
+				INFOPLIST_FILE = YVPaymentToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yoonvey.YVPaymentToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YVPaymentTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183757EB209D362800416255 /* Build configuration list for PBXProject "YVPaymentTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1837581A209D363600416255 /* Debug */,
+				1837581B209D363600416255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1837581C209D363600416255 /* Build configuration list for PBXNativeTarget "YVPaymentTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1837581D209D363600416255 /* Debug */,
+				1837581E209D363600416255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1837581F209D363600416255 /* Build configuration list for PBXNativeTarget "YVPaymentToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18375820209D363600416255 /* Debug */,
+				18375821209D363600416255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18375822209D363600416255 /* Build configuration list for PBXNativeTarget "YVPaymentToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18375823209D363600416255 /* Debug */,
+				18375824209D363600416255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183757E8209D362800416255 /* Project object */;
+}
