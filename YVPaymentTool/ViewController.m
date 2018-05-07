@@ -8,21 +8,53 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "YVPaymentManager.h"
+
+@interface ViewController () <YVPaymentDelegate>
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+
+#pragma mark - <实现支付代理协议>
+//返回授权回调信息
+- (void)managerDidResponseAuthResult:(NSDictionary *)resultDic platform:(PayPlatform)platform
+{
+    
+}
+
+//返回支付回调信息
+- (void)managerDidResponsePayResult:(NSDictionary *)resultDic platform:(PayPlatform)platform
+{
+    switch (platform)
+    {
+        case PayPlatformOfWechat:
+            
+            break;
+        case PayPlatformOfAlipay:
+            
+            break;
+        case PlatformOfAppPay:
+            
+            break;
+        case PlatformOfCustom:
+            
+            break;
+        default:
+            break;
+    }
 }
 
 

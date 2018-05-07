@@ -15,6 +15,23 @@
 		18375803209D363600416255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18375802209D363600416255 /* main.m */; };
 		1837580D209D363600416255 /* YVPaymentToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837580C209D363600416255 /* YVPaymentToolTests.m */; };
 		18375818209D363600416255 /* YVPaymentToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18375817209D363600416255 /* YVPaymentToolUITests.m */; };
+		18375830209D36AE00416255 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18375829209D36AE00416255 /* libWeChatSDK.a */; };
+		18375831209D36AE00416255 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1837582A209D36AE00416255 /* README.txt */; };
+		18375832209D36AE00416255 /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837582E209D36AE00416255 /* WXApiManager.m */; };
+		18375836209D36C400416255 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18375834209D36C400416255 /* AlipaySDK.bundle */; };
+		18375837209D36C400416255 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18375835209D36C400416255 /* AlipaySDK.framework */; };
+		1837583A209D37C600416255 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18375839209D37C600416255 /* SystemConfiguration.framework */; };
+		1837583C209D37CB00416255 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837583B209D37CB00416255 /* CoreTelephony.framework */; };
+		1837583E209D37D300416255 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837583D209D37D300416255 /* libc++.tbd */; };
+		18375840209D37DC00416255 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837583F209D37DC00416255 /* libz.tbd */; };
+		18375842209D385100416255 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18375841209D385100416255 /* libsqlite3.0.tbd */; };
+		18375844209D385700416255 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18375843209D385700416255 /* QuartzCore.framework */; };
+		18375846209D38B300416255 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18375845209D38B300416255 /* CoreMotion.framework */; };
+		1837584A209D399300416255 /* YVPaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18375849209D399300416255 /* YVPaymentManager.m */; };
+		18375852209D738800416255 /* YVIAPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18375851209D738800416255 /* YVIAPObject.m */; };
+		18375854209D73BB00416255 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18375853209D73BB00416255 /* StoreKit.framework */; };
+		18375859209D87CF00416255 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 18375857209D87CF00416255 /* GTMBase64.m */; };
+		1837585C209DA46900416255 /* YVReceiptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837585B209DA46900416255 /* YVReceiptUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,35 @@
 		18375813209D363600416255 /* YVPaymentToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YVPaymentToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18375817209D363600416255 /* YVPaymentToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVPaymentToolUITests.m; sourceTree = "<group>"; };
 		18375819209D363600416255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18375829209D36AE00416255 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		1837582A209D36AE00416255 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		1837582B209D36AE00416255 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		1837582C209D36AE00416255 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		1837582D209D36AE00416255 /* WXApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiManager.h; sourceTree = "<group>"; };
+		1837582E209D36AE00416255 /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
+		1837582F209D36AE00416255 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		18375834209D36C400416255 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		18375835209D36C400416255 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		18375839209D37C600416255 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1837583B209D37CB00416255 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1837583D209D37D300416255 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1837583F209D37DC00416255 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18375841209D385100416255 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		18375843209D385700416255 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18375845209D38B300416255 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		18375848209D399300416255 /* YVPaymentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVPaymentManager.h; sourceTree = "<group>"; };
+		18375849209D399300416255 /* YVPaymentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVPaymentManager.m; sourceTree = "<group>"; };
+		1837584B209D3C8E00416255 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1837584D209D3C9200416255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1837584F209D3CAB00416255 /* CommonHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonHeader.pch; sourceTree = "<group>"; };
+		18375850209D738800416255 /* YVIAPObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVIAPObject.h; sourceTree = "<group>"; };
+		18375851209D738800416255 /* YVIAPObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVIAPObject.m; sourceTree = "<group>"; };
+		18375853209D73BB00416255 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		18375856209D87CF00416255 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		18375857209D87CF00416255 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		18375858209D87CF00416255 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		1837585A209DA46900416255 /* YVReceiptUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YVReceiptUtils.h; sourceTree = "<group>"; };
+		1837585B209DA46900416255 /* YVReceiptUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YVReceiptUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18375842209D385100416255 /* libsqlite3.0.tbd in Frameworks */,
+				18375840209D37DC00416255 /* libz.tbd in Frameworks */,
+				1837583E209D37D300416255 /* libc++.tbd in Frameworks */,
+				18375854209D73BB00416255 /* StoreKit.framework in Frameworks */,
+				18375846209D38B300416255 /* CoreMotion.framework in Frameworks */,
+				1837583C209D37CB00416255 /* CoreTelephony.framework in Frameworks */,
+				1837583A209D37C600416255 /* SystemConfiguration.framework in Frameworks */,
+				18375844209D385700416255 /* QuartzCore.framework in Frameworks */,
+				18375830209D36AE00416255 /* libWeChatSDK.a in Frameworks */,
+				18375837209D36C400416255 /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +141,7 @@
 				1837580B209D363600416255 /* YVPaymentToolTests */,
 				18375816209D363600416255 /* YVPaymentToolUITests */,
 				183757F1209D362900416255 /* Products */,
+				18375838209D37C500416255 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +158,7 @@
 		183757F2209D362900416255 /* YVPaymentTool */ = {
 			isa = PBXGroup;
 			children = (
+				18375825209D369100416255 /* YVPaymentKit */,
 				183757F3209D362900416255 /* AppDelegate.h */,
 				183757F4209D362900416255 /* AppDelegate.m */,
 				183757F6209D362900416255 /* ViewController.h */,
@@ -110,6 +168,7 @@
 				183757FE209D363600416255 /* LaunchScreen.storyboard */,
 				18375801209D363600416255 /* Info.plist */,
 				18375802209D363600416255 /* main.m */,
+				1837584F209D3CAB00416255 /* CommonHeader.pch */,
 			);
 			path = YVPaymentTool;
 			sourceTree = "<group>";
@@ -130,6 +189,88 @@
 				18375819209D363600416255 /* Info.plist */,
 			);
 			path = YVPaymentToolUITests;
+			sourceTree = "<group>";
+		};
+		18375825209D369100416255 /* YVPaymentKit */ = {
+			isa = PBXGroup;
+			children = (
+				18375847209D394600416255 /* Managers */,
+				18375827209D369100416255 /* Libraries */,
+			);
+			path = YVPaymentKit;
+			sourceTree = "<group>";
+		};
+		18375827209D369100416255 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				18375855209D87CF00416255 /* GTM */,
+				18375833209D36C400416255 /* AlipaySDK */,
+				18375828209D36AE00416255 /* WechatSDK1.8.2 */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		18375828209D36AE00416255 /* WechatSDK1.8.2 */ = {
+			isa = PBXGroup;
+			children = (
+				18375829209D36AE00416255 /* libWeChatSDK.a */,
+				1837582A209D36AE00416255 /* README.txt */,
+				1837582B209D36AE00416255 /* WechatAuthSDK.h */,
+				1837582C209D36AE00416255 /* WXApi.h */,
+				1837582D209D36AE00416255 /* WXApiManager.h */,
+				1837582E209D36AE00416255 /* WXApiManager.m */,
+				1837582F209D36AE00416255 /* WXApiObject.h */,
+			);
+			path = WechatSDK1.8.2;
+			sourceTree = "<group>";
+		};
+		18375833209D36C400416255 /* AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				18375834209D36C400416255 /* AlipaySDK.bundle */,
+				18375835209D36C400416255 /* AlipaySDK.framework */,
+			);
+			path = AlipaySDK;
+			sourceTree = "<group>";
+		};
+		18375838209D37C500416255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18375853209D73BB00416255 /* StoreKit.framework */,
+				1837584D209D3C9200416255 /* UIKit.framework */,
+				1837584B209D3C8E00416255 /* Foundation.framework */,
+				18375845209D38B300416255 /* CoreMotion.framework */,
+				18375843209D385700416255 /* QuartzCore.framework */,
+				18375841209D385100416255 /* libsqlite3.0.tbd */,
+				1837583F209D37DC00416255 /* libz.tbd */,
+				1837583D209D37D300416255 /* libc++.tbd */,
+				1837583B209D37CB00416255 /* CoreTelephony.framework */,
+				18375839209D37C600416255 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18375847209D394600416255 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				18375848209D399300416255 /* YVPaymentManager.h */,
+				18375849209D399300416255 /* YVPaymentManager.m */,
+				18375850209D738800416255 /* YVIAPObject.h */,
+				18375851209D738800416255 /* YVIAPObject.m */,
+				1837585A209DA46900416255 /* YVReceiptUtils.h */,
+				1837585B209DA46900416255 /* YVReceiptUtils.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		18375855209D87CF00416255 /* GTM */ = {
+			isa = PBXGroup;
+			children = (
+				18375856209D87CF00416255 /* GTMBase64.h */,
+				18375857209D87CF00416255 /* GTMBase64.m */,
+				18375858209D87CF00416255 /* GTMDefines.h */,
+			);
+			path = GTM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +376,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18375836209D36C400416255 /* AlipaySDK.bundle in Resources */,
 				18375800209D363600416255 /* LaunchScreen.storyboard in Resources */,
 				183757FD209D363600416255 /* Assets.xcassets in Resources */,
+				18375831209D36AE00416255 /* README.txt in Resources */,
 				183757FB209D362900416255 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +406,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				183757F8209D362900416255 /* ViewController.m in Sources */,
+				1837584A209D399300416255 /* YVPaymentManager.m in Sources */,
+				18375852209D738800416255 /* YVIAPObject.m in Sources */,
+				18375832209D36AE00416255 /* WXApiManager.m in Sources */,
 				18375803209D363600416255 /* main.m in Sources */,
 				183757F5209D362900416255 /* AppDelegate.m in Sources */,
+				18375859209D87CF00416255 /* GTMBase64.m in Sources */,
+				1837585C209DA46900416255 /* YVReceiptUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,11 +583,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CS83JSD9BS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YVPaymentTool/YVPaymentKit/Libraries/AlipaySDK",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YVPaymentTool/CommonHeader.pch";
 				INFOPLIST_FILE = YVPaymentTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YVPaymentTool/YVPaymentKit/Libraries/WechatSDK1.8.2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yoonvey.YVPaymentTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,11 +611,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CS83JSD9BS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YVPaymentTool/YVPaymentKit/Libraries/AlipaySDK",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YVPaymentTool/CommonHeader.pch";
 				INFOPLIST_FILE = YVPaymentTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YVPaymentTool/YVPaymentKit/Libraries/WechatSDK1.8.2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yoonvey.YVPaymentTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

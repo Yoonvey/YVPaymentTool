@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "YVPaymentManager.h"
+
 @interface AppDelegate ()
 
 @end
@@ -15,12 +17,29 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     // Override point for customization after application launch.
     return YES;
 }
 
+#pragma mark - <支付回调配置>
+- (BOOL)application:(UIApplication *)application handleOpenUrl:(NSURL *)url
+{
+    return [[YVPaymentManager sharedManager] application:application handleOpenUrl:url];
+}
 
+- (BOOL)application:(UIApplication *)application openURL:(nonnull NSURL *)url options:(nonnull NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+{
+    return [[YVPaymentManager sharedManager] application:application openUrl:url options:options];
+}
+
+- (BOOL)application:(UIApplication *)application openUrl:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [[YVPaymentManager sharedManager] application:application openUrl:url sourceApplication:sourceApplication annotation:annotation];
+}
+
+#pragma mark - <AppLifeCycle>
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
