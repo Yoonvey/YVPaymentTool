@@ -46,10 +46,10 @@
         case PayPlatformOfAlipay:
             
             break;
-        case PlatformOfAppPay:
+        case PayPlatformOfAppPay:
             
             break;
-        case PlatformOfCustom:
+        case PayPlatformOfCustom:
             
             break;
         default:
