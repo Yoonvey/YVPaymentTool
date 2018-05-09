@@ -14,8 +14,8 @@ typedef enum
 {
     PayPlatformOfAlipay,//支付宝
     PayPlatformOfWechat,//微信
-    PlatformOfAppPay,//苹果内购
-    PlatformOfCustom//自定义
+    PayPlatformOfAppPay,//苹果内购
+    PayPlatformOfCustom//自定义
 }PayPlatform;
 
 @protocol YVPaymentDelegate <NSObject>
