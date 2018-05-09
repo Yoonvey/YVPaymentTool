@@ -278,7 +278,7 @@ NSDictionary *AlipayProcessOrderWithPaymentResult(NSDictionary *resultDic)
         if (self.delegate && [self.delegate respondsToSelector:@selector(managerDidResponsePayResult:platform:)])
         {
             NSMutableDictionary *result = [NSMutableDictionary dictionaryWithObject:@"用户禁止应用内付费购买" forKey:@"memo"];
-            [self.delegate managerDidResponsePayResult:result platform:PlatformOfAppPay];
+            [self.delegate managerDidResponsePayResult:result platform:PayPlatformOfAppPay];
         }
     }
 }
@@ -325,7 +325,7 @@ NSDictionary *AlipayProcessOrderWithPaymentResult(NSDictionary *resultDic)
 - (void)transactionDidResponseState:(NSString *)msg
 {
     NSMutableDictionary *result = [NSMutableDictionary dictionaryWithObject:msg forKey:@"memo"];
-    [self.delegate managerDidResponsePayResult:result platform:PlatformOfAppPay];
+    [self.delegate managerDidResponsePayResult:result platform:PayPlatformOfAppPay];
 }
 
 @end
